@@ -1,0 +1,5 @@
+baseurl = "https://monolithsplit.com"
+languageCode = "en-us"
+title = "Monolith Split"
+content= "This stuff is good!"
+theme = "landing-email-full"
