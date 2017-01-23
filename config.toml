@@ -1,5 +1,35 @@
 baseurl = "https://monolithsplit.com"
 languageCode = "en-us"
-title = "Monolith Split"
+title = "monolithsplit.com | Learn how to decompose your old monolith into money-making microservices!"
 content= "This stuff is good!"
-theme = "landing-email-full"
+theme = "zodkoo-dark"
+
+[params]
+  brandName = "MONOLITHSPL/T"
+
+  # Main navigation
+  [params.navigation]
+    callToAction = "Notify me!"
+    mobileNavToggle = "Toggle navigation"
+    [[params.navigation.item]]
+      text = "why"
+      link = "#why"
+      defaultClass = "active"
+    [[params.navigation.item]]
+      text = "how"
+      link = "#how"
+    [[params.navigation.item]]
+      text = "what"
+      link = "#what"
+    [[params.navigation.item]]
+      text = "plans"
+      link = "#pricing"
+    [[params.navigation.item]]
+      text = "q&a"
+      link = "#qna"
+
+  # Hero section
+  [params.hero]
+    title = "Have you heard about microservices? Stop wasting money on research!"
+    subtitle = "Has your team been spending the last 2 months investigating microservices? Do you still don't have any conclusion or clear directions? Get yourself an expert-written report and extra materials to ease with the migration!"
+    callToAction = "I want more!"

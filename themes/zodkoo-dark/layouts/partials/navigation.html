@@ -1,0 +1,49 @@
+
+<!-- Navbar -->
+<div class="navbar navbar-custom sticky" role="navigation" id="sticky-nav">
+    <div class="container">
+
+        <!-- Navbar-header -->
+        <div class="navbar-header">
+
+            <!-- Responsive menu button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">{{ .Site.Params.navigation.mobileNavToggle }}</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <!-- LOGO -->
+            <a class="navbar-brand logo" href="index.html">
+              {{ .Site.Params.BrandName }}
+            </a>
+
+        </div>
+        <!-- end navbar-header -->
+
+        <!-- menu -->
+        <div class="navbar-collapse collapse" id="navbar-menu">
+
+            <!-- Navbar left -->
+            <ul class="nav navbar-nav nav-custom-left">
+                {{ range .Site.Params.navigation.item }}
+                    <li {{ if .defaultClass }} class="{{ .defaultClass }}" {{ end }}>
+                        <a href="{{ .link }}" class="nav-link">{{ .text }}</a>
+                    </li>
+                {{ end }}
+            </ul>
+
+            <!-- Navbar right -->
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                  <a href="" class="btn btn-white-fill navbar-btn">{{ .Site.Params.navigation.callToAction }}</a>
+                </li>
+            </ul>
+
+        </div>
+        <!--/Menu -->
+    </div>
+    <!-- end container -->
+</div>
+<!-- End navbar-custom -->
