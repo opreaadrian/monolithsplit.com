@@ -1,0 +1,28 @@
+body {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.bg-image {
+  background-image: url('/images/nvbfwtaubni-jay-ruzesky.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.home-wrapper h1 {
+  width: 75%;
+  font-size: 2.5em;
+  line-height: 1 !important;
+}
+
+.home-wrapper h4 {
+  font-size: 1.2em;
+}
+
+.title {
+  font-size: 2em;
+}
+
+.feat-description h4 {
+  font-size: 1.5em;
+}
