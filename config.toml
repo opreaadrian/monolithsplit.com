@@ -6,6 +6,8 @@ theme = "zodkoo-dark"
 
 [params]
   brandName = "MONOLITHSPL/T"
+  description = "Get an expert-written report, tailor-made to your business needs! Break that monolith apart and migrate to microservices before your competitors."
+  author = "Adrian Oprea"
 
   # Main navigation
   [params.navigation]
