@@ -7,7 +7,21 @@
                           <div class="home-wrapper home-wrapper-alt">
                               <h1 class="font-light text-white">{{ .Site.Params.hero.title }}</h1>
                               <h4 class="text-white">{{ .Site.Params.hero.subtitle }}</h4>
-                              <a href="" class="btn btn-white-bordered btn-lg">{{ .Site.Params.hero.callToAction }}</a>
+                              <!-- <a href="" class="btn btn-white-bordered btn-lg">{{ .Site.Params.hero.callToAction }}</a> -->
+
+                              <div class="row">
+                                  <div class="col-sm-6 col-sm-offset-3">
+                                      <form class="text-center" data-drip-embedded-form="41345928" action="https://www.getdrip.com/forms/41345928/submissions" id="hero-FORM" method="POST">
+                                          <div class="form-group m-b-0">
+                                              <input type="email" class="form-control input-subscribe" id="hero-EMAIL" name="fields[email]"
+                                                     placeholder="Available soon! Enter your e-mail to reserve a spot." required>
+                                              <label for="hero-EMAIL"></label>
+                                          </div>
+
+                                          <button type="submit" class="btn btn-white-fill btn-lg">{{ .Site.Params.hero.callToAction }}</button>
+                                      </form>
+                                  </div>
+                              </div><!-- End row -->
                           </div>
                       </div>
                   </div>

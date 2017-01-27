@@ -13,10 +13,14 @@ body {
   width: 75%;
   font-size: 2.5em;
   line-height: 1 !important;
+  /*letter-spacing: 5px;*/
 }
 
 .home-wrapper h4 {
   font-size: 1.2em;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: 1px;
 }
 
 .title {
@@ -25,4 +29,29 @@ body {
 
 .feat-description h4 {
   font-size: 1.5em;
+  line-height: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .home-wrapper h1 { font-size: 3.5em; }
+  .home-wrapper h4 { font-size: 1.5em; }
+  .title { font-size: 2.5em; }
+  .feat-description h4 { font-size: 2em; }
+}
+
+.btn {
+  letter-spacing: 3px;
+}
+
+p {
+  letter-spacing: .5px;
+}
+
+.input-subscribe {
+  font-size: 1em;
+  background-color: rgba(0, 0, 0, .2);
+}
+
+.img-responsive {
+  border: 4px solid white;
 }

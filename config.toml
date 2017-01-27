@@ -6,25 +6,27 @@ theme = "zodkoo-dark"
 
 [params]
   brandName = "MONOLITHSPL/T"
+  # brandName = "monolithspl/t"
   description = "Get an expert-written report, tailor-made to your business needs! Break that monolith apart and migrate to microservices before your competitors."
   author = "Adrian Oprea"
+  host = "monolithsplit.com"
 
   # Main navigation
   [params.navigation]
-    callToAction = "Notify me!"
+    callToAction = "NOTIFY ME!"
     mobileNavToggle = "Toggle navigation"
     [[params.navigation.item]]
-      text = "Why"
+      text = "WHY"
       link = "#why"
       defaultClass = "active"
     [[params.navigation.item]]
-      text = "How"
+      text = "HOW"
       link = "#how"
     [[params.navigation.item]]
-      text = "What"
+      text = "WHAT"
       link = "#what"
     [[params.navigation.item]]
-      text = "Plans"
+      text = "PLANS"
       link = "#pricing"
     [[params.navigation.item]]
       text = "FAQ"
@@ -33,5 +35,5 @@ theme = "zodkoo-dark"
   # Hero section
   [params.hero]
     title = "Stop throwing hard-earned money out the window."
-    subtitle = "Get an expert-written report, tailor-made to your business needs! Break that monolith apart and migrate to microservices before your competitors."
+    subtitle = "Insightful, expert-written reports meant to help you break that monolith apart."
     callToAction = "I need this!"

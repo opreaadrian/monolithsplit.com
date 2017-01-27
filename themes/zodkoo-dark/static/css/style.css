@@ -166,7 +166,6 @@ a:hover,a:focus,.a:active {
   padding: 8px 24px !important;
   background-color: #ffffff;
   border: 2px solid rgba(255, 255, 255, 0.75) !important;
-  border-radius: 50px;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.04em;
@@ -183,7 +182,6 @@ a:hover,a:focus,.a:active {
   background-color: transparent !important;
   border: 2px solid rgba(255, 255, 255, 0.75) !important;
   color: #ffffff;
-  border-radius: 50px;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.04em;
@@ -196,7 +194,6 @@ a:hover,a:focus,.a:active {
 .btn-custom {
   padding: 8px 24px !important;
   color: #ffffff !important;
-  border-radius: 50px;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.04em;
