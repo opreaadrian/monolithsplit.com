@@ -1,0 +1,92 @@
+{{ partial "header.html" . }}
+
+        <!-- Header title -->
+        <section class="bg-custom header-title-box">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                      <h3 class="text-white">Get In Touch</h3>
+                    </div>
+                </div>
+            </div> <!-- end container -->
+        </section>
+        <!-- END Header title -->
+
+
+
+        <!-- Contact Form -->
+        <section class="section">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h3 class="title text-white">How can I help you?</h3>
+                        <p class="text-light sub-title">Feel free to put in as much detail you think is necessary. <br>I will personally review and reply to any and all relevant messages.</p>
+                    </div>
+                </div> <!-- end row -->
+
+                <div class="row">
+
+                    <!-- Contact form -->
+                    <div class="col-sm-6">
+                        <form role="form" name="ajax-form" id="contact-form"
+                              action="thank-you" method="post"
+                              class="contact-form" data-parsley-validate novalidate netlify>
+
+                            <div class="form-group">
+                                <input class="form-control" id="name2" name="name" placeholder="Your name" type="text" value="" parsley-trigger="change" required>
+                            </div>
+                            <!-- /Form-name -->
+
+                            <div class="form-group">
+                                <input class="form-control" id="email2" name="email" type="email" placeholder="Your email" value="" parsley-trigger="change" required>
+                            </div>
+                            <!-- /Form-email -->
+
+                            <div class="form-group">
+                                <textarea class="form-control" id="message2" name="message" rows="5" placeholder="Message" parsley-trigger="change" required></textarea>
+                            </div>
+                            <!-- /Form Msg -->
+
+                            <div class="row">            
+                                <div class="col-xs-12">
+                                    <div id="success-form" class="text-success" style="display: none;">
+                                        E-mail was successfully sent.
+                                        Go back to the <a title="Go back to the home page." href="/">home page</a>
+                                    </div>
+                                    <div class="error text-center" id="err-form"></div>
+                                    <div class="text-center">
+                                        <button type="submit" class="btn btn-custom" id="send">Send</button>
+                                    </div>
+                                </div> <!-- /col -->
+                            </div> <!-- /row -->
+
+                        </form> <!-- /form -->
+                    </div> <!-- end col -->
+
+                    <div class="col-sm-5 col-sm-offset-1">
+                        <div class="contact-box text-light">
+                            
+                            <div class="contact-detail">
+                                <i class="pe-7s-phone"></i>
+                                <p>
+                                    +40 (752) 18 28 26
+                                </p>
+                            </div>
+
+                            <div class="contact-detail">
+                                <i class="pe-7s-mail-open-file"></i>
+                                <p>
+                                    <a href="">adrian@oprea.rocks</a>
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div> <!-- end col -->
+                </div> <!-- end row -->
+
+            </div> <!-- end container -->
+        </section>
+        <!-- End Contact Form -->
+{{ partial "footer.html" . }}
