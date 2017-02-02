@@ -1,13 +1,14 @@
 baseurl = "https://monolithsplit.com"
 languageCode = "en-us"
-title = "monolithsplit.com | Learn how to decompose your old monolith into money-making microservices!"
-content= "This stuff is good!"
+title = "Decouple your Node.js monolith into money making microservices!"
+layoutdir = "layouts"
 theme = "zodkoo-dark"
 
 [params]
   brandName = "MONOLITHSPL/T"
   # brandName = "monolithspl/t"
-  description = "Get an expert-written report, tailor-made to your business needs! Break that monolith apart and migrate to microservices before your competitors."
+  description = "Do you have a Node.js app? Is it a monolith? Stop adding features to it! Get an expert-written decomposition report, tailor-made to your business needs! Break that monolith apart and migrate to microservices before your competitors."
+  keywords = "nodejs, node.js, microservices, monolith, nodejs app, node.js application, nodejs monolith, javascript microservices, split monolith, microservices architecture, microservices conslutant, microservices best practices, devops, node.js decoupling, node.js software architect"
   author = "Adrian Oprea"
   host = "monolithsplit.com"
 
@@ -34,6 +35,6 @@ theme = "zodkoo-dark"
 
   # Hero section
   [params.hero]
-    title = "Stop throwing hard-earned money out the window."
-    subtitle = "Insightful, expert-written reports meant to help you break that monolith apart."
+    title = "Get rid of your old Node.js monolith"
+    subtitle = "Try microservices! Get your expert-written migration report."
     callToAction = "I need this!"
