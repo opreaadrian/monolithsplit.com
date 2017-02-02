@@ -89,13 +89,4 @@
             </div> <!-- end container -->
         </section>
         <!-- End Contact Form -->
-        <script>
-            var $contactForm = $('#contact-form');
-            $contactForm.on('submit', function(event) {
-                $.post($contactForm.attr('action'), $contactForm.serialize(), function() {
-                    $('#success-form').show();
-                });
-                event.preventDefault();
-            })
-        </script>
 {{ partial "footer.html" . }}

@@ -32,4 +32,13 @@
     });
   }
 
+  var $contactForm = $('#contact-form');
+    if ($contactForm) {
+    $contactForm.on('submit', function(event) {
+      $.post($contactForm.attr('action'), $contactForm.serialize(), function() {
+        $('#success-form').show();
+      });
+      event.preventDefault();
+    });
+  }
 }(window, document, jQuery));
